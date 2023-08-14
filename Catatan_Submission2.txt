@@ -1,0 +1,12 @@
+Project ID : submission-mzfuadi97
+
+Berikut IP dari region-region yang saya gunakan :
+europe : 34.142.115.172
+southesast-asia : 35.187.251.82
+
+IP load balancer : 34.36.213.233:443
+
+Saya menggunakan autoscalling pada kasus ini, karena memiliki high availability dan fault tolerant yang baik dengan menyediakan arsitektur di dua region yang berbeda. Untuk pendistribustion traffic menggunakan HTTP(S) load balancing karena mencakup global dan membagi traffic dari berbagai region. Autoscalling diatas didukung VPC untuk mengelola jaringan yang secure dan fleksibel. 
+Pada kasus, digunakan region uerope-west dan region southeast asia, setiap logs dapat dimonitoring dengan fitur monitoring berupa dashboard. Dashboard ini memvisualisasikan rata-rata CPU utilization, rata-rata sent bytes, log entries pada masing-masing instance dibuat secara real-time.
+
+Saya menggunakan n1-standard pada kasus ini, karena kinerja yang seimbang, skabilitas vertikal, mendukung otomasi autoscalling serta pengelolaan instance yang mudah. Alasan memilih region tersebut, karena dapat mengurangi latensi jaringan dan mempercepat waktu respon web server, ketersedian yang tinggi, serta latensi yang rendah. Tipe load balancer yang digunakan yaitu HTTP(S) karena dapat menjangkau konsumen seluruh dunia karena bersifat global.
