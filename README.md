@@ -11,17 +11,22 @@ Solusi arsitektur cloud meliputi skalabilitas otomatis untuk melayani pelanggan 
 
 ## Arsitektur Cloud
 Berikut adalah arsitektur cloud pada GCP untuk mendeploy aplikasi:
+![Diagram Arsitektur Cloud](https://github.com/mzfuadi97/CloudArch_Sub1/assets/70827786/698b1280-db29-456e-b4a3-f93acb1d58b5)
 
 
 ## Dokumentasi Deploy Aplikasi
 ### Template-Instance
+![Template Instance](https://github.com/mzfuadi97/CloudArch_Sub1/assets/70827786/33c4eb1f-9144-4344-a6c5-f93dd7e68f31)
 
 
 ### Autoscalling
+![Autoscalling Instance Group](https://github.com/mzfuadi97/CloudArch_Sub1/assets/70827786/517fb593-8235-48f8-a1d4-504dd0079620)
 
 
 ### Monitoring-Instaces
+![Template Instance](https://github.com/mzfuadi97/CloudArch_Sub1/assets/70827786/89a5a621-2e39-4ad3-98d9-623ca38a333f)
 
 
 ### Kalkulator-GCP
+![Kalkulator Biaya Architect](https://github.com/mzfuadi97/CloudArch_Sub1/assets/70827786/f5d5c778-0839-4c6d-8a1b-74704506ecc7)
 
