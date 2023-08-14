@@ -9,6 +9,9 @@ Aplikasi e-commerce dari perusahaan multinasional telah sukses beroperasi di pus
 ## Solusi
 Solusi arsitektur cloud meliputi skalabilitas otomatis untuk melayani pelanggan dengan latensi rendah dari Asia Tenggara dan Eropa, pemantauan infrastruktur oleh tim IT dengan akses audit eksternal, dan efisiensi biaya yang tetap mengikuti praktik terbaik dalam cloud computing.
 
+
+Saya menerapkan autoscaling untuk menjamin high availability dan fault tolerance dengan arsitektur dual-region. Traffic didistribusikan melalui HTTP(S) load balancing, mencakup berbagai region. Autoscaling didukung oleh VPC yang aman dan fleksibel. Menggunakan region europe-west dan southeast asia, log dipantau melalui dashboard, termasuk CPU utilization dan traffic. Menggunakan n1-standard karena keseimbangan kinerja dan skalabilitas, dengan region yang dipilih untuk mengurangi latensi dan meningkatkan ketersediaan. Load balancer HTTP(S) global dipilih untuk mengakomodasi pengguna dari seluruh dunia.
+
 ## Arsitektur Cloud
 Berikut adalah arsitektur cloud pada GCP untuk mendeploy aplikasi:
 ![Diagram Arsitektur Cloud](https://github.com/mzfuadi97/CloudArch_Sub1/assets/70827786/698b1280-db29-456e-b4a3-f93acb1d58b5)
